@@ -24,4 +24,10 @@
 		<Description>Российский рубль</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="7400d0a7-4b4b-4b41-aec1-a0dc40010087">
+		<Name>TRY</Name>
+		<Code>949</Code>
+		<Description>Турецкая лира</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
