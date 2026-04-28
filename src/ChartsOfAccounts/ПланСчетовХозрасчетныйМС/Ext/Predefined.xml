@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ChartOfAccountsPredefinedItems" version="2.20">
+	<Item id="e35c2cf2-b5c9-4270-9093-dc86b6f2a7ea">
+		<Name>Bank</Name>
+		<Code>1102</Code>
+		<Description>1102</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Валютный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.УчетПоПодразделениям">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.НалоговыйУчет">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+		<ChildItems>
+			<Item id="87759029-b718-40a8-abb1-bdf95ce4d404">
+				<Name>BankUSDAccounts</Name>
+				<Code>1102.01</Code>
+				<Description>Bank USD accounts</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Валютный">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.УчетПоПодразделениям">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.НалоговыйУчет">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетныеМС.Организации">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Валютный">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Количественный">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетныеМС.БанковскиеСчета">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Валютный">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Количественный">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+				</ExtDimensionTypes>
+			</Item>
+			<Item id="68a960a6-b5af-4fa3-8b73-f17bc5743b69">
+				<Name>BankRUBAccounts</Name>
+				<Code>1102.02</Code>
+				<Description>Bank RUB accounts</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Валютный">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.УчетПоПодразделениям">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.НалоговыйУчет">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетныеМС.Организации">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Валютный">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Количественный">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетныеМС.БанковскиеСчета">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Валютный">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Количественный">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+				</ExtDimensionTypes>
+			</Item>
+			<Item id="57164203-0b80-448d-8f88-e58b929abb01">
+				<Name>BankEURAccounts</Name>
+				<Code>1102.04</Code>
+				<Description>Bank EUR accounts</Description>
+				<AccountType>ActivePassive</AccountType>
+				<OffBalance>false</OffBalance>
+				<Order/>
+				<AccountingFlags>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Валютный">true</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Количественный">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.УчетПоПодразделениям">false</Flag>
+					<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.НалоговыйУчет">false</Flag>
+				</AccountingFlags>
+				<ExtDimensionTypes>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетныеМС.Организации">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Валютный">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Количественный">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+					<ExtDimensionType name="ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетныеМС.БанковскиеСчета">
+						<Turnover>false</Turnover>
+						<AccountingFlags>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Суммовой">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Валютный">true</Flag>
+							<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.ExtDimensionAccountingFlag.Количественный">false</Flag>
+						</AccountingFlags>
+					</ExtDimensionType>
+				</ExtDimensionTypes>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="ed382294-466e-4832-a968-97eda051073b">
+		<Name>Вспомогательный</Name>
+		<Code>000</Code>
+		<Description>Вспомогательный</Description>
+		<AccountType>ActivePassive</AccountType>
+		<OffBalance>false</OffBalance>
+		<Order/>
+		<AccountingFlags>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Валютный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.Количественный">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.УчетПоПодразделениям">false</Flag>
+			<Flag ref="ChartOfAccounts.ПланСчетовХозрасчетныйМС.AccountingFlag.НалоговыйУчет">false</Flag>
+		</AccountingFlags>
+		<ExtDimensionTypes/>
+	</Item>
+</PredefinedData>
