@@ -12,6 +12,12 @@
 		<Description>Евро</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="ec19a788-d671-4aef-a51e-24ddd4a90269">
+		<Name>CNY</Name>
+		<Code>156      </Code>
+		<Description>Китайский юань</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="59868337-c5fc-40e1-b558-f6a9dc02f83f">
 		<Name>RUB</Name>
 		<Code>643</Code>
