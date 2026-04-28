@@ -637,7 +637,6 @@
 			<DataProcessor>НерекомендуемаяВерсияПлатформы</DataProcessor>
 			<DataProcessor>РезультатыОбновленияПрограммы</DataProcessor>
 			<DataProcessor>РекомендацияПоПовышениюСкоростиРаботы</DataProcessor>
-			<DataProcessor>УправлениеСистемойВзаимодействия</DataProcessor>
 			<DataProcessor>ОтчетОстаткиПоБанку</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>БезопасноеХранилищеДанныхОбластейДанных</InformationRegister>

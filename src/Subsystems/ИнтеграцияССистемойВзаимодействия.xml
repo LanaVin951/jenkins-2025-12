@@ -16,7 +16,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.УправлениеСистемойВзаимодействия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">f70625ed-cc69-41f7-8bb7-0b252d9d9d98</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
