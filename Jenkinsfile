@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('Git Sync') {
             steps {
-                bat 'chcp 65001\n cd C:\\repo\\jenkins-2025-12 \n gitsync --v8version 8.3.27.1606 sync --storage-user gs_bot C:\\хранилища\\хранилище1 C:\\repo\\jenkins-2025-12\\src'
+                bat 'chcp 65001\n gitsync --v8version 8.3.27.1606 sync --storage-user gs_bot C:\\хранилища\\хранилище1 C:\\repo\\jenkins-2025-12\\src'
             }
         }
         stage('Build test base') {
@@ -31,7 +31,7 @@ pipeline {
         }
         stage('Syntax check') {
             steps {
-                bat 'chcp 65001\n vrunner syntax-check'
+                bat 'chcp 65001\n cd C:\\repo\\jenkins-2025-12 \n vrunner syntax-check'
             }
         }
     }
