@@ -34,6 +34,11 @@ pipeline {
                 bat 'chcp 65001\n cd C:\\repo\\jenkins-2025-12 \n vrunner syntax-check'
             }
         }
+        stage('Xunit tests') {
+            steps {
+                bat 'chcp 65001\n cd C:\\repo\\jenkins-2025-12 \n vrunner xunit'
+            }
+        }
     }
 }
 
