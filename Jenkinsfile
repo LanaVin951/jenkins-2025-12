@@ -1,5 +1,6 @@
 pipeline{
 agent {
+    label '1c-node'
 }
 environment {
 envString = 'world'
