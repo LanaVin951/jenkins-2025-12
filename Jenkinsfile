@@ -9,8 +9,7 @@ pipeline {
 
     post {
         always {
-            bat 'echo always'
-            //allure commandline: 'Allure 2.41.0', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'out/syntax-check/allure']]
+             allure commandline: 'Allure 2.41.0', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'out/syntax-check/allure']]
         }
         failure {
             bat 'echo failure'
